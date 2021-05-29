@@ -395,6 +395,9 @@ you should place your code here."
 
 (global-set-key (kbd "M-<up>") 'move-line-up)
 (global-set-key (kbd "M-<down>") 'move-line-down)
+(global-set-key (kbd "M-.") 'dumb-jump-go)
+(global-set-key (kbd "M-,") 'dumb-jump-back)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
