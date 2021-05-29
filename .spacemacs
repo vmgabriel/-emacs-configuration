@@ -36,6 +36,7 @@ values."
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
+     better-defaults
      neotree
      elixir
      rust
@@ -45,6 +46,7 @@ values."
      html
      python
      sql
+     django
      yaml
      javascript
      windows-scripts
@@ -53,11 +55,8 @@ values."
      themes-megapack
      multiple-cursors
      react
-     ;; ----------------------------------------------------------------
-     ;; Example of useful layers you may want to use right aways
-     ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
-     ;; <M-m f e R> (Emacs style) to install them.
-     ;; ----------------------------------------------------------------
+     pdf
+     docker
      helm
      auto-completion
      better-defaults
@@ -66,6 +65,7 @@ values."
      markdown
      org
      org-re-reveal
+     ipython-notebook
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom)
